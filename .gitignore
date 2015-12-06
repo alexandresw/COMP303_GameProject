@@ -1,5 +1,2 @@
 build
 *.class
-*.jar
-*.war
-*.ear
