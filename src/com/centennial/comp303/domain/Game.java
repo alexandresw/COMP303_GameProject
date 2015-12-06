@@ -21,7 +21,7 @@ public class Game implements Serializable {
     private static final Logger log = LoggerFactory.getLogger(Game.class);
 
     // Raw attributes
-    private Integer id;
+    private Long id;
     private String name;
     private String description;
     private String type;
@@ -35,15 +35,15 @@ public class Game implements Serializable {
     @Column(name = "id", precision = 10)
     @GeneratedValue
     @Id
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
-    public Game id(Integer id) {
+    public Game id(Long id) {
         setId(id);
         return this;
     }

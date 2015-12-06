@@ -7,6 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Ola</h1>
+<h1>Game Details</h1>
+<div>
+   <p>Name: ${game.name}</p>
+   <p>Type: ${game.type}</p>
+   <p>Console: ${game.console}</p>
+   <p>Year: ${game.year}</p>
+   <p>Price: ${game.price}</p>
+   <p>Picture: <img src="${game.picture}"/></p>
+   <p>Description: ${game.description}</p>
+ </div>
+ <a href="index">Back</a>
 </body>
 </html>

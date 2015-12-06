@@ -12,12 +12,19 @@
 
 <a href="newGame">New Game</a>
 
+<hr/>
+
+<span>Filters: </span> <a href="index?type=Racing">Racing</a> - <a href="">Racing</a> - <a href="">Racing</a>
+
+<hr/>
+
 <c:forEach items="${games}" var="game">
  <div>
    <p>${game.name}</p>
    <p>${game.type}</p>
    <p>${game.console}</p>
    <p>${game.year}</p>
+   <a href="viewGame?id=${game.id}">Details</a>
  </div>
  <hr/>
 </c:forEach>
