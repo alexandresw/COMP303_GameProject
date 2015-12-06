@@ -20,10 +20,8 @@
 
 <c:forEach items="${games}" var="game">
  <div>
-   <p>${game.name}</p>
-   <p>${game.type}</p>
-   <p>${game.console}</p>
-   <p>${game.year}</p>
+   <p>${game.name} - ${game.type} - ${game.console}</p>
+   <img src="${game.picture}"/><br>
    <a href="viewGame?id=${game.id}">Details</a>
  </div>
  <hr/>
