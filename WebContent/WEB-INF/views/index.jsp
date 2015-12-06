@@ -14,7 +14,7 @@
 
 <hr/>
 
-<span>Filters: </span> <a href="index?type=Racing">Racing</a> - <a href="">Racing</a> - <a href="">Racing</a>
+<span>Filters: </span> <a href="index?type=Action">Action</a> - <a href="index?type=Racing">Racing</a> - <a href="index?type=Shooters">Shooters</a>
 
 <hr/>
 
